@@ -103,7 +103,7 @@ export default function BlogCreationWizardPage() {
         </Button>
       </Link>
       <div className='animate-fadeIn'>
-        <h1 className='text-3xl font-bold place-self-center mt-8 mb-5'>
+        <h1 className='text-2xl font-bold place-self-center mt-8 mb-5'>
           Create New Blog Post
         </h1>
 

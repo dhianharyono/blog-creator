@@ -80,9 +80,9 @@ export const StepWrapper: FC<StepWrapperProps> = ({
     <div className='border border-gray-200 rounded-lg shadow-lg bg-white p-4 sm:p-10'>
       {renderStepper()}
 
-      <h2 className='text-xl font-semibold mb-6 text-gray-800'>
+      <h1 className='text-lg font-semibold mb-6 text-gray-800'>
         {STEP_NAMES[step - 1]}
-      </h2>
+      </h1>
 
       {children}
 

@@ -25,7 +25,7 @@ export const BlogListPageContent = () => {
     <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10'>
       <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center mb-8 border-b border-gray-200 pb-5'>
         <div>
-          <h1 className='text-4xl font-extrabold text-gray-900 tracking-tight'>
+          <h1 className='text-3xl font-extrabold text-gray-900 tracking-tight'>
             Blog Creator
           </h1>
           <p className='text-md text-gray-500 mt-1'>
@@ -51,7 +51,7 @@ export const BlogListPageContent = () => {
       ) : totalPosts === 0 ? (
         <div className='flex flex-col items-center justify-center py-20 bg-white border border-dashed border-gray-300 rounded-xl shadow-inner p-20 animate-fadeIn'>
           <IoBookSharp size={50} className='text-indigo-500' />
-          <h3 className='mt-4 text-2xl font-semibold text-gray-900'>
+          <h3 className='mt-4 text-2xl font-semibold text-gray-900 text-center'>
             Time to Create!
           </h3>
           <p className='mt-2 text-center text-md text-gray-600 max-w-lg'>
